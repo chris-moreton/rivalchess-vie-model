@@ -1,3 +1,6 @@
+import org.gradle.api.artifacts.maven.MavenDeployment
+import org.gradle.api.tasks.bundling.Jar
+
 buildscript {
     repositories {
         jcenter()
@@ -9,7 +12,7 @@ plugins {
     id 'maven'
     id 'maven-publish'
     id 'signing'
-    id 'org.jetbrains.kotlin.jvm' version '1.4'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0'
 }
 
 group = "com.netsensia.rivalchess"
