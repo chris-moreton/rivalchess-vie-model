@@ -12,8 +12,17 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.0'
 }
 
-group = "com.netsensia.rivalchess"
-version = '1.0.4'
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.netsensia.rivalchess'
+            artifactId = 'rivalchess-vie-model'
+            version = '1.0.5'
+
+            from components.java
+        }
+    }
+}
 
 jar.baseName("rivalchess-vie-model")
 
