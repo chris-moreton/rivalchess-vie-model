@@ -17,12 +17,15 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.netsensia.rivalchess'
             artifactId = 'rivalchess-vie-model'
-            version = '1.0.5'
+            version = '1.0.6'
 
             from components.java
         }
     }
 }
+
+group = "com.netsensia.rivalchess"
+version = '1.0.6'
 
 jar.baseName("rivalchess-vie-model")
 
