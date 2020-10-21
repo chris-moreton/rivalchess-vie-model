@@ -13,6 +13,7 @@ function gittag() {
     git tag $1
     git push
     git push --tags
+    ./gradlew build
     ./gradlew publishToMavenLocal
     ./gradlew uploadArchives
   fi
