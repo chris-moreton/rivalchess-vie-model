@@ -1,8 +1,7 @@
 package com.netsensia.rivalchess.vie.model
 
-data class MatchRequest(
-    val engine1: EngineSettings,
-    val engine2: EngineSettings,
+data class MultiMatch(
+    val engineSettings: EngineSettings,
     val nodeVariationPercent: Int,
     val matchCount: Int
 )
