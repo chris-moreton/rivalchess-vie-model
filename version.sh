@@ -13,6 +13,7 @@ function gittag() {
     git tag $1
     git push
     git push --tags
+    ./gradlew publishToMavenLocal
     ./gradlew uploadArchives
   fi
 }
@@ -20,5 +21,5 @@ function gittag() {
 sed -i "s/version = .*/version = '$1'/g" build.gradle
 sed -i "s/<version>.*<\/version>/<version>'$1'<\/version>/g" README.md
 sed -i "s/version: '.*'/version: '$1'/g" README.md
-./gradlew publishToMavenLocal
 gittag $1
+

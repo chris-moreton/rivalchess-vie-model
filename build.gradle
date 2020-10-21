@@ -16,7 +16,7 @@ plugins {
 }
 
 group = "com.netsensia.rivalchess"
-version = '1.0.1'
+version = '1.0.2'
 
 jar.baseName("rivalchess-vie-model")
 
@@ -51,15 +51,15 @@ uploadArchives {
             }
 
             pom.project {
-                name 'rivalchess-model'
+                name 'rivalchess-vie-model'
                 packaging 'jar'
                 description 'The simple model classes used by Rival Chess'
-                url 'https://github.com/chris-moreton/rivalchess-model'
+                url 'https://github.com/chris-moreton/rivalchess-vie-model'
 
                 scm {
-                    connection = 'scm:git:git://github.com/chris-moreton/rivalchess-model.git'
-                    developerConnection = 'scm:git:ssh://github.com/chris-moreton/rivalchess-model.git'
-                    url = 'https://github.com/chris-moreton/rivalchess-model'
+                    connection = 'scm:git:git://github.com/chris-moreton/rivalchess-vie-model.git'
+                    developerConnection = 'scm:git:ssh://github.com/chris-moreton/rivalchess-vie-model.git'
+                    url = 'https://github.com/chris-moreton/rivalchess-vie-model'
                 }
 
                 licenses {
