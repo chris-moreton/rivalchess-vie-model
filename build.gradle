@@ -17,7 +17,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.netsensia.rivalchess'
             artifactId = 'rivalchess-vie-model'
-            version = '4.0.3'
+            version = '4.0.4'
 
             from components.java
         }
@@ -25,7 +25,7 @@ publishing {
 }
 
 group = "com.netsensia.rivalchess"
-version = '4.0.3'
+version = '4.0.4'
 
 jar.baseName("rivalchess-vie-model")
 
