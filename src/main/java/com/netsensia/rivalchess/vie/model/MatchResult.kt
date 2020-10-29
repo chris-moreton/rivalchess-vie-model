@@ -1,6 +1,6 @@
 package com.netsensia.rivalchess.vie.model
 
 data class MatchResult(
-        val engineSettings: EngineSettings,
+        val engineMatch: EngineMatch,
         val pgn: String
 )

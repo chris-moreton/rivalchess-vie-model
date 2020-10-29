@@ -10,10 +10,10 @@ This is the model used by the RivalChess Vie system.
     <dependency>
         <groupId>com.netsensia.rivalchess</groupId>
         <artifactId>rivalchess-vie-model</artifactId>
-        <version>'25.0.11'</version>
+        <version>'5.0.0'</version>
     </dependency>
     
 #### Gradle
 
-    compile group: 'com.netsensia.rivalchess', name: 'rivalchess-vie-model', version: '25.0.11'
+    compile group: 'com.netsensia.rivalchess', name: 'rivalchess-vie-model', version: '5.0.0'
 
